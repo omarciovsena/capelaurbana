@@ -48,16 +48,16 @@ const Footer = () => (
             justifyContent="center"
           >
             <a
-              href="https://api.whatsapp.com/send?phone=5562987678908&text=Ol%C3%A1%20Sandro%2C%20"
+              href="https://api.whatsapp.com/send?phone=5562982841985&text=Ol%C3%A1%Gito%2C%20"
               title="Whatsapp - Gito"
             >
-              (62) 987 678 908 - Gito
+              (62) 9 8284-1985 - Gito
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=5562987678908&text=Ol%C3%A1%20Sandro%2C%20"
+              href="https://api.whatsapp.com/send?phone=5562981246210&text=Ol%C3%A1%20Sandro%2C%20"
               title="Whatsapp - Sandro"
             >
-              (62) 987 678 908 - Sandro
+              (62) 9 8124-6210 - Sandro
             </a>
           </StyledSection>
         </FlexGrid>
