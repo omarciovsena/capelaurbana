@@ -20,7 +20,6 @@ html {
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;  
-  background: pink;
 }
 /**
  * Render the main element consistently in IE.

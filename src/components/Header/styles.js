@@ -115,6 +115,7 @@ export const NavLinksLink = styled(Link)`
   color: inherit;
   font-size: 14px;
   text-decoration: none;
+  transition: all 1s;
 `
 export const NavLinksLinkEspecial = styled(NavLinksLink)`
   background: ${theme.white};
