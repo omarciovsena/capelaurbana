@@ -20,3 +20,8 @@ export const Container = styled.div`
   max-width: calc(100% - 40px);
   width: 1280px;
 `
+
+export const FullContainer = styled.div`
+  margin: 0 auto;
+  width: 1280px;
+`
