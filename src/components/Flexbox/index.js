@@ -23,5 +23,5 @@ export const Container = styled.div`
 
 export const FullContainer = styled.div`
   margin: 0 auto;
-  width: 1280px;
+  max-width: 1280px;
 `
