@@ -5,6 +5,7 @@ import Layout from "../components/Layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Hero from "../components/Hero"
+import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
@@ -23,6 +24,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
+    <Footer />
   </Layout>
 )
 
