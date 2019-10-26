@@ -1,35 +1,31 @@
 import React from "react"
-import {
-  StyledFooter,
-  StyledText,
-  StyledImage,
-  StyledRow,
-  StyledSection,
-} from "./styles"
-import { FlexGrid, Col, Container } from "../Flexbox"
+import * as S from "./styles"
+import * as F from "../Flexbox"
 import SocialFacebook from "../../images/social-facebook.svg"
 import SocialInstagram from "../../images/social-instagram.svg"
 
 const Footer = () => (
-  <StyledFooter>
-    <Container>
-      <StyledRow alignItems="center" justifyContent="space-between">
-        <FlexGrid alignItems="center" justifyContent="space-between">
+  <S.StyledFooter>
+    <F.Container>
+      <S.StyledRow alignItems="center" justifyContent="space-between">
+        <F.FlexGrid alignItems="center" justifyContent="space-between">
           <a
             href="https://instagram.com/capelaurbana/"
             title="Acesse nosso instagram"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <StyledImage src={SocialInstagram} />
+            <S.StyledImage src={SocialInstagram} />
           </a>
           <a
             href="https://facebook.com/capelaurbana/"
             title="Acesse nosso facebook"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <StyledImage src={SocialFacebook} />
+            <S.StyledImage src={SocialFacebook} />
           </a>
-          <StyledSection
+          <S.StyledSection
             alignItems="left"
             flexDirection="column"
             justifyContent="center"
@@ -41,8 +37,8 @@ const Footer = () => (
             >
               ola@capelaurbana.org
             </a>
-          </StyledSection>
-          <StyledSection
+          </S.StyledSection>
+          <S.StyledSection
             alignItems="left"
             flexDirection="column"
             justifyContent="center"
@@ -59,14 +55,14 @@ const Footer = () => (
             >
               (62) 9 8124-6210 - Sandro
             </a>
-          </StyledSection>
-        </FlexGrid>
-        <StyledText>
+          </S.StyledSection>
+        </F.FlexGrid>
+        <S.StyledText>
           Todos os direitos reservados à Capela Urbana - 2019 - 2020
-        </StyledText>
-      </StyledRow>
-    </Container>
-  </StyledFooter>
+        </S.StyledText>
+      </S.StyledRow>
+    </F.Container>
+  </S.StyledFooter>
 )
 
 export default Footer
