@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax"
 import * as F from "../Flexbox"
 import * as S from "./styles"
 
-const Contribute = ({
+const ParallaxSection = ({
   bgColor,
   bgImage,
   descriptions,
@@ -35,7 +35,7 @@ const Contribute = ({
   </S.Wrapper>
 )
 
-Contribute.propTypes = {
+ParallaxSection.propTypes = {
   bgColor: PropTypes.string.isRequired,
   bgImage: PropTypes.string.isRequired,
   description: PropTypes.array.isRequired,
@@ -44,4 +44,4 @@ Contribute.propTypes = {
   title: PropTypes.string.isRequired,
 }
 
-export default Contribute
+export default ParallaxSection
