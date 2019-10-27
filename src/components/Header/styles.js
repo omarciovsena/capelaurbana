@@ -10,6 +10,7 @@ export const Header = styled.header`
   transition: all 1s;
   width: 100%;
   z-index: 1;
+  max-width: 100%;
 
   svg {
     transition: all 1.5s;
@@ -52,7 +53,7 @@ export const ToggleInput = styled.input.attrs({
     }
     &:checked + label + ul {
       border-top: solid 2px black;
-      height: 160px;
+      height: 170px;
     }
   }
 `
@@ -95,15 +96,16 @@ export const NavLinks = styled.ul`
   padding: 0;
 
   @media (max-width: ${theme.mobile}) {
-    background-color: silver;
+    background-color: rgba(0, 42, 60, 0.95);
     flex-direction: column;
     height: 0;
     left: 0;
     overflow: hidden;
     position: absolute;
-    top: 65px;
+    top: 94px;
     transition: all 0.5s ease-in-out;
     width: calc(100%);
+    text-align: center;
   }
 `
 

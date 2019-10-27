@@ -1,17 +1,26 @@
 import React from "react"
-import { useWindowScroll } from "react-use"
+import { useWindowScroll, useWindowSize } from "react-use"
 import { theme } from "../../styles/theme"
 
 import * as S from "./styles"
 
 const Header = () => {
   const { y } = useWindowScroll()
+  const { width } = useWindowSize()
   let headerHeight = y < 120 ? "94px" : "70px"
   let imageWidth = y < 120 ? "140px" : "115px"
   let transparentToWhite = y < 120 ? "transparent" : `${theme.white}`
   let whiteToDaintree = y < 120 ? `${theme.white}` : `${theme.daintree}`
   let daintreeToWhite = y < 120 ? `${theme.daintree}` : `${theme.white}`
   let boxShadow = y > 120 && `0px 1px 3px ${theme.daintree}`
+
+  let buttonStyle =
+    width < 768
+      ? { background: "none", color: theme.white, padding: 0, borderRadius: 0 }
+      : {
+          background: whiteToDaintree,
+          color: daintreeToWhite,
+        }
 
   return (
     <S.Header
@@ -50,10 +59,7 @@ const Header = () => {
               <S.NavLinksLink to="/">Contribua</S.NavLinksLink>
             </S.NavLinksItem>
             <S.NavLinksItem>
-              <S.NavLinksLinkEspecial
-                style={{ background: whiteToDaintree, color: daintreeToWhite }}
-                to="/"
-              >
+              <S.NavLinksLinkEspecial style={buttonStyle} to="/">
                 Conecte-se
               </S.NavLinksLinkEspecial>
             </S.NavLinksItem>
