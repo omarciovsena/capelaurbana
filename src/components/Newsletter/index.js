@@ -7,12 +7,12 @@ const Newsletter = () => (
   <S.NewsWrapper>
     <F.Container>
       <F.FlexGrid>
-        <F.Col width="34%">
+        <S.NewsCol width="34%">
           <S.P>
             Conecte e fique por dentro do cuidado de Deus e do “cuidar” de
             gente:
           </S.P>
-        </F.Col>
+        </S.NewsCol>
         <S.NewsCol width="66%">
           <S.Form>
             <S.Input type="email" placeholder="Digite o seu email"></S.Input>

@@ -3,7 +3,7 @@ import * as F from "../Flexbox"
 import * as S from "./styles"
 
 const Hero = () => (
-  <S.HeroContainer>
+  <S.HeroWrapper>
     <S.HeroFlexGrid alignItems="center">
       <F.Col width="50%">
         <S.H2>Um espaço de espiritualidade no meio da cidade.</S.H2>
@@ -16,7 +16,7 @@ const Hero = () => (
         </S.CTAContainer>
       </F.Col>
     </S.HeroFlexGrid>
-  </S.HeroContainer>
+  </S.HeroWrapper>
 )
 
 export default Hero

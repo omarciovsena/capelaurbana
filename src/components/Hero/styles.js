@@ -6,7 +6,7 @@ import * as F from "../Flexbox"
 
 import heroBg from "../../images/capela-urbana-reuniao-hero.jpg"
 
-export const HeroContainer = styled(F.Wrapper)`
+export const HeroWrapper = styled(F.Wrapper)`
   background: linear-gradient(to left, rgba(0, 42, 60, 0), #002a3c),
     url(${heroBg}) center/cover;
   height: 640px;
@@ -14,6 +14,8 @@ export const HeroContainer = styled(F.Wrapper)`
 
 export const HeroFlexGrid = styled(F.FlexGrid)`
   height: 100%;
+  margin: 0 auto;
+  max-width: calc(100% - 30px);
 `
 
 export const H2 = styled.h2`
@@ -22,6 +24,11 @@ export const H2 = styled.h2`
   line-height: 1.15;
   margin: 0 auto 8px;
   width: 465px;
+
+  @media (max-width: ${theme.tablet}) {
+    font-size: 40px;
+    width: 330px;
+  }
 `
 
 export const H4 = styled.h4`
@@ -32,6 +39,10 @@ export const H4 = styled.h4`
   margin-top: 10px;
   margin: 0 auto;
   width: 465px;
+
+  @media (max-width: ${theme.tablet}) {
+    width: 330px;
+  }
 `
 
 export const CTAContainer = styled.div`

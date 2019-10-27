@@ -63,7 +63,7 @@ export const Toggle = styled.label.attrs({
   display: none;
 
   @media (max-width: ${theme.mobile}) {
-    background: black;
+    background: ${theme.white};
     display: block;
     height: 3px;
     margin-right: 30px;
@@ -72,7 +72,7 @@ export const Toggle = styled.label.attrs({
 
     &::after,
     &::before {
-      background: black;
+      background: ${theme.white};
       content: "";
       height: 3px;
       position: absolute;

@@ -9,9 +9,15 @@ export const NewsWrapper = styled(F.Wrapper)`
 `
 
 export const NewsCol = styled(F.Col)`
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  &:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  @media (max-width: ${theme.tablet}) {
+    width: 100%;
+  }
 `
 
 export const P = styled.p`
@@ -20,12 +26,23 @@ export const P = styled.p`
   line-height: 1.5;
   margin: 0;
   max-width: 340px;
+
+  @media (max-width: ${theme.tablet}) {
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto 10px;
+  }
 `
 
 export const Form = styled.form`
   display: flex;
   justify-content: space-between;
   width: 100%;
+
+  @media (max-width: ${theme.mobile}) {
+    display: block;
+    text-align: center;
+  }
 `
 
 export const Input = styled.input`
@@ -46,5 +63,17 @@ export const Input = styled.input`
     min-height: 41px;
     padding: 0;
     width: 20%;
+  }
+
+  @media (max-width: ${theme.mobile}) {
+    &:nth-child(n) {
+      box-sizing: border-box;
+      width: 90%;
+      margin: 0 auto;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
   }
 `
