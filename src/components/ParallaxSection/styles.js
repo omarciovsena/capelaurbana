@@ -37,7 +37,7 @@ export const Title = styled.h3`
 
 export const Text = styled.p`
   color: ${theme.white};
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
   line-height: 1.5;
 `

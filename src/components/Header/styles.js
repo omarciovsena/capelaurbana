@@ -108,7 +108,11 @@ export const NavLinks = styled.ul`
 `
 
 export const NavLinksItem = styled.li`
-  padding: 8px 12px;
+  margin: 8px 12px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 `
 
 export const NavLinksLink = styled(Link)`

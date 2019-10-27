@@ -11,7 +11,6 @@ export const theme = {
   santaFe: "#b3664b",
   starkWhite: "#dfd4b5",
   white: "#fff",
-  santaFe: "#b3664b",
 
   //media queries
   tablet: "980px",

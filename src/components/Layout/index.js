@@ -3,8 +3,7 @@ import PropTypes from "prop-types"
 
 import Footer from "../Footer"
 import Header from "../Header"
-import Meeting from "../Meeting"
-import ParallaxSection from "../ParallaxSection"
+
 import GlobalStyles from "../../styles/global"
 
 const Layout = ({ children }) => (
@@ -12,27 +11,6 @@ const Layout = ({ children }) => (
     <GlobalStyles />
     <Header />
     <main>{children}</main>
-    <Meeting />
-    <ParallaxSection
-      bgColor={theme.breakerBay}
-      bgImage={SocialLeagueImage}
-      title="Liga Social"
-      image={WorldMap}
-      imageRight
-      descriptions={[
-        "Nunc porta erat ut lectus posuere molestie. Vestibulum risusligula, rhoncus eleifend. Nunc porta erat ut lectus posueremolestie. Vestibulum risus ligula, rhoncus eleifend.",
-      ]}
-    />
-    <ParallaxSection
-      bgColor={theme.daintree2}
-      bgImage={ContributeImage}
-      title="Como Contribuir"
-      image={Brand}
-      descriptions={[
-        "Nunc porta erat ut lectus posuere molestie. Vestibulum risusligula, rhoncus eleifend. Nunc porta erat ut lectus posueremolestie. Vestibulum risus ligula, rhoncus eleifend.",
-        "Comunidade Capela Urbana CNPJ: 22.345.234/0001-89 <br /> Banco do Brasil - Agência 3410 <br /> Conta corrente 23423-8",
-      ]}
-    />
     <Footer />
   </>
 )

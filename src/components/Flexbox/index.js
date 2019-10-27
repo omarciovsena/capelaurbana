@@ -18,7 +18,7 @@ export const Col = styled.div`
 export const Container = styled.div`
   margin: 0 auto;
   max-width: calc(100% - 40px);
-  width: 1280px;
+  width: 1080px;
 `
 
 export const Wrapper = styled.div`

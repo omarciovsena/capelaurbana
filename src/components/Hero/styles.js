@@ -17,15 +17,15 @@ export const HeroFlexGrid = styled(F.FlexGrid)`
 `
 
 export const H2 = styled.h2`
-  color: white;
+  color: ${theme.white};
   font-size: 48px;
   line-height: 1.15;
-  margin: 0 auto;
+  margin: 0 auto 8px;
   width: 465px;
 `
 
 export const H4 = styled.h4`
-  color: white;
+  color: ${theme.white};
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;

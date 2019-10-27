@@ -11,7 +11,7 @@ const Header = () => {
   let transparentToWhite = y < 120 ? "transparent" : `${theme.white}`
   let whiteToDaintree = y < 120 ? `${theme.white}` : `${theme.daintree}`
   let daintreeToWhite = y < 120 ? `${theme.daintree}` : `${theme.white}`
-  let boxShadow = y > 120 && `0px 2px 8px ${theme.daintree}`
+  let boxShadow = y > 120 && `0px 1px 3px ${theme.daintree}`
 
   return (
     <S.Header

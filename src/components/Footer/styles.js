@@ -5,7 +5,7 @@ import { FlexGrid } from "../Flexbox"
 export const StyledFooter = styled.footer`
   background-color: ${theme.daintree};
   color: ${theme.hitGray};
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
 
   div {

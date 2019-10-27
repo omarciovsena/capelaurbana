@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { FlexGrid } from "../Flexbox"
 import { theme }  from "../../styles/theme"
 
 export const Wrapper = styled.div`
@@ -55,12 +54,12 @@ export const Name = styled.h4`
 
 export const Hour = styled.p`
   color: ${theme.santaFe};
-  font-size: 12px;
+  font-size: 13px;
   margin: 0 0 8px;
 `
 
 export const Description = styled.p`
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
   line-height: 1.5;
   margin: 0 0 8px;

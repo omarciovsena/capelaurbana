@@ -5,41 +5,46 @@ import * as F from "../Flexbox"
 
 export const NewsWrapper = styled(F.Wrapper)`
   background: ${theme.santaFe};
-  padding: 30px 0;
+  padding: 24px 0;
 `
 
 export const NewsCol = styled(F.Col)`
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 `
 
 export const P = styled.p`
   color: ${theme.white};
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
   max-width: 340px;
-  margin: 0 auto;
 `
 
 export const Form = styled.form`
   display: flex;
   justify-content: space-between;
+  width: 100%;
 `
 
 export const Input = styled.input`
-  padding: 8px 10px 8px 20px;
-  width: 40%;
   border-radius: 20px;
   border: none;
+  font-weight: 300;
+  padding: 8px 10px 8px 20px;
+  width: 45%;
 
   &:nth-child(2) {
-    width: 26%;
+    width: 25%;
   }
 
   &:nth-child(3) {
-    width: 20%;
-    min-height: 41px;
-    padding: 0;
     background: ${theme.daintree};
     color: ${theme.white};
     font-weight: 600;
+    min-height: 41px;
+    padding: 0;
+    width: 20%;
   }
 `
