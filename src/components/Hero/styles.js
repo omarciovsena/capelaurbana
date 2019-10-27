@@ -6,7 +6,7 @@ import * as F from "../Flexbox"
 
 import heroBg from "../../images/capela-urbana-reuniao-hero.jpg"
 
-export const HeroContainer = styled(F.FullContainer)`
+export const HeroContainer = styled(F.Wrapper)`
   background: linear-gradient(to left, rgba(0, 42, 60, 0), #002a3c),
     url(${heroBg}) center/cover;
   height: 640px;

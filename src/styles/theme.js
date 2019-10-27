@@ -8,6 +8,7 @@ export const theme = {
   grape: "#331855",
   hitGray: "#9CACB3",
   white: "#fff",
+  santaFe: "#b3664b",
 
   //media queries
   tablet: "980px",

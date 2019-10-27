@@ -6,11 +6,13 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Hero from "../components/Hero"
 import Footer from "../components/Footer"
+import Newsletter from "../components/Newsletter"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
+    <Newsletter />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>

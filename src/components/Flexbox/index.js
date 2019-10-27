@@ -21,7 +21,6 @@ export const Container = styled.div`
   width: 1280px;
 `
 
-export const FullContainer = styled.div`
+export const Wrapper = styled.div`
   margin: 0 auto;
-  max-width: 1280px;
 `
