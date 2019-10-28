@@ -5,7 +5,7 @@ import * as S from "./styles"
 const Hero = () => (
   <S.HeroWrapper>
     <S.HeroFlexGrid alignItems="center">
-      <F.Col width="50%">
+      <S.HeroCol width="50%">
         <S.H2>Um espaço de espiritualidade no meio da cidade.</S.H2>
         <S.H4>
           Um lugar de pausa, reflexão, oração e acolhimento pautado na
@@ -14,7 +14,7 @@ const Hero = () => (
         <S.CTAContainer>
           <S.CallToAction>Chegue mais</S.CallToAction>
         </S.CTAContainer>
-      </F.Col>
+      </S.HeroCol>
     </S.HeroFlexGrid>
   </S.HeroWrapper>
 )
