@@ -1,5 +1,4 @@
 import React from "react"
-import * as F from "../Flexbox"
 import * as S from "./styles"
 
 const Hero = () => (

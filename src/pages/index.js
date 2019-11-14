@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 
-import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 const Wrapper = styled.div`
@@ -14,8 +13,6 @@ const Wrapper = styled.div`
     padding: 10px;
   }
 `
-
-
 
 const NotFoundPage = () => (
   <Wrapper>
