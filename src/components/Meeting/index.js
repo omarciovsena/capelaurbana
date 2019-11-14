@@ -40,13 +40,13 @@ const items = [
 ]
 
 const Meeting = () => (
-  <S.Wrapper>
+  <S.Wrapper id="encontros">
     <F.Container>
       <S.Title>Encontros</S.Title>
       <F.FlexGrid justifyContent="space-between" alignItems="stretch">
         {
-          items.map(item => (
-            <S.Item>
+          items.map((item, index) => (
+            <S.Item key={`meeting-${index}`}>
               <S.IconWrapper bgColor={item.bgColor}>
                 <img src={item.logo} alt={item.title}/>
               </S.IconWrapper>

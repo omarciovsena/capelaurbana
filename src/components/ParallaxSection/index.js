@@ -27,8 +27,8 @@ const ParallaxSection = ({
           </F.FlexGrid>
           <S.TextSection align={imageRight ? "left" : "right"}>
             <S.Title>{title}</S.Title>
-            {descriptions.map(description => (
-              <S.Text dangerouslySetInnerHTML={{ __html: description }} />
+            {descriptions.map((description, index) => (
+              <S.Text key={`parallax-${index}`} dangerouslySetInnerHTML={{ __html: description }} />
             ))}
             {ctaText && (
               <S.Cta href={ctaLink} title={ctaText} textColor={bgColor}>
@@ -45,9 +45,9 @@ const ParallaxSection = ({
 ParallaxSection.propTypes = {
   bgColor: PropTypes.string.isRequired,
   bgImage: PropTypes.string.isRequired,
-  description: PropTypes.array.isRequired,
+  descriptions: PropTypes.array.isRequired,
   image: PropTypes.string.isRequired,
-  imageRight: PropTypes.bool.isRequired,
+  imageRight: PropTypes.bool,
   title: PropTypes.string.isRequired,
   cta: PropTypes.string,
   ctaLink: PropTypes.string,

@@ -13,7 +13,7 @@ const Hero = () => (
             espiritualidade de Jesus.
           </S.H4>
           <S.CTAContainer>
-            <S.CallToAction>Chegue mais</S.CallToAction>
+            <S.CallToAction to="/#encontros">Chegue mais</S.CallToAction>
           </S.CTAContainer>
         </S.HeroCol>
       </S.HeroFlexGrid>

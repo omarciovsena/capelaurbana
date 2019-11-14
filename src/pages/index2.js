@@ -20,7 +20,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Hero />
     <Newsletter />
-    <Meeting />
+    <Meeting/>
     <ParallaxSection
       bgColor={theme.breakerBay}
       bgImage={bgSocialLeague}
