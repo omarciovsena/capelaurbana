@@ -10,16 +10,20 @@ export const HeroWrapper = styled(F.Wrapper)`
   background: linear-gradient(to left, rgba(0, 42, 60, 0), #002a3c),
     url(${heroBg}) center/cover;
   height: 640px;
+
+  > div {
+    height: 100%;
+  }
 `
 
 export const HeroFlexGrid = styled(F.FlexGrid)`
   height: 100%;
   margin: 0 auto;
-  max-width: calc(100% - 30px);
 `
 
 export const HeroCol = styled(F.Col)`
   @media (max-width: ${theme.mobile}) {
+    max-width: 100%;
     width: 100%;
   }
 `
@@ -28,7 +32,8 @@ export const H2 = styled.h2`
   color: ${theme.white};
   font-size: 48px;
   line-height: 1.15;
-  margin: 0 auto 8px;
+  margin: 0 0 8px;
+  max-width: 100%;
   width: 465px;
 
   @media (max-width: ${theme.tablet}) {
@@ -39,7 +44,6 @@ export const H2 = styled.h2`
   @media (max-width: ${theme.smallMobile}) {
     font-size: 36px;
     width: 320px;
-    max-width: 100%;
   }
 `
 
@@ -48,8 +52,8 @@ export const H4 = styled.h4`
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
-  margin-top: 10px;
-  margin: 0 auto;
+  margin: 10px 0 0;
+  max-width: 100%;
   width: 465px;
 
   @media (max-width: ${theme.tablet}) {
@@ -58,14 +62,13 @@ export const H4 = styled.h4`
 
   @media (max-width: ${theme.smallMobile}) {
     width: 320px;
-    max-width: 100%;
   }
 `
 
 export const CTAContainer = styled.div`
-  margin: 0 auto;
-  width: 465px;
+  margin: 0;
   max-width: 100%;
+  width: 465px;
 
   @media (max-width: ${theme.tablet}) {
     width: 480px;

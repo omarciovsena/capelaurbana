@@ -31,7 +31,7 @@ const ParallaxSection = ({
               <S.Text dangerouslySetInnerHTML={{ __html: description }} />
             ))}
             {ctaText && (
-              <S.Cta href={ctaLink} title={ctaText}>
+              <S.Cta href={ctaLink} title={ctaText} textColor={bgColor}>
                 {ctaText}
               </S.Cta>
             )}

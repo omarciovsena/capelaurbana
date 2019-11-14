@@ -27,8 +27,10 @@ const IndexPage = () => (
       title="Liga Social"
       image={imgWorldMap}
       imageRight
+      ctaLink="https://doe.capelaurbana.org"
+      ctaText="Fale conosco"
       descriptions={[
-        "Nunc porta erat ut lectus posuere molestie. Vestibulum risusligula, rhoncus eleifend. Nunc porta erat ut lectus posueremolestie. Vestibulum risus ligula, rhoncus eleifend.",
+        "É uma rede de Projetos Sociais que dá suporte a ações relevantes no Brasil e no Mundo. Entendemos que podemos compartilhar a nossa experiência e acompanhar projetos sociais desde a sua concepção até sua execução.",
       ]}
     />
     <Podcast />

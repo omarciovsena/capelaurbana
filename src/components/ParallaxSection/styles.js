@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
 import { FlexGrid } from "../Flexbox"
 import { theme } from "../../styles/theme"
 
@@ -57,7 +56,7 @@ export const Text = styled.p`
 export const Cta = styled.a`
   background: ${theme.white};
   border-radius: 20px;
-  color: ${theme.daintree};
+  color: ${({ textColor }) => textColor};
   display: inline-block;
   font-weight: bold;
   margin-top: 20px;
