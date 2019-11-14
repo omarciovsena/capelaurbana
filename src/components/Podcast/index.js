@@ -11,7 +11,6 @@ const Podcast = () => (
         <S.Block>
           <S.Iframe
             src="https://castbox.fm/app/castbox/player/id2449013?v=8.11.5&autoplay=0"
-            frameborder="0"
             width="100%"
             height="450"
             title="Castbox - Capela Urbana"
