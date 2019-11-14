@@ -19,7 +19,7 @@ const Podcast = () => (
         <S.Text>
           ouça também no
           <a
-            href="https://podcast.capelaurbana.org"
+            href="spotify:show:7gOg10XFYo1203iSLc4J23"
             title="Acesse Capela Urbana no Spotify"
             target="_blank"
             rel="noopener noreferrer"
