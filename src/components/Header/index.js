@@ -6,12 +6,12 @@ import * as S from "./styles"
 
 const Header = () => {
   const { y } = useWindowScroll()
-  const { width } = useWindowSize()
+  // const { width } = useWindowSize()
   let headerHeight = y < 120 ? "94px" : "70px"
   let imageWidth = y < 120 ? "140px" : "115px"
   let transparentToWhite = y < 120 ? "transparent" : `${theme.white}`
   let whiteToDaintree = y < 120 ? `${theme.white}` : `${theme.daintree}`
-  let daintreeToWhite = y < 120 ? `${theme.daintree}` : `${theme.white}`
+  // let daintreeToWhite = y < 120 ? `${theme.daintree}` : `${theme.white}`
   let boxShadow = y > 120 && `0px 1px 3px ${theme.daintree}`
 
   // let buttonStyle =
