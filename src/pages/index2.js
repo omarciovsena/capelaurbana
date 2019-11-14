@@ -5,6 +5,7 @@ import Layout from "../components/Layout"
 import Meeting from "../components/Meeting"
 import Newsletter from "../components/Newsletter"
 import ParallaxSection from "../components/ParallaxSection"
+import Podcast from "../components/Podcast"
 import SEO from "../components/seo"
 
 import { theme } from "../styles/theme"
@@ -30,7 +31,7 @@ const IndexPage = () => (
         "Nunc porta erat ut lectus posuere molestie. Vestibulum risusligula, rhoncus eleifend. Nunc porta erat ut lectus posueremolestie. Vestibulum risus ligula, rhoncus eleifend.",
       ]}
     />
-    <Meeting />
+    <Podcast />
     <ParallaxSection
       bgColor={theme.daintree2}
       bgImage={bgContribute}
