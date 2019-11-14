@@ -37,9 +37,10 @@ const IndexPage = () => (
       bgImage={bgContribute}
       title="Como Contribuir"
       image={Brand}
+      ctaLink="https://doe.capelaurbana.org"
+      ctaText="Contribua"
       descriptions={[
-        "Nunc porta erat ut lectus posuere molestie. Vestibulum risusligula, rhoncus eleifend. Nunc porta erat ut lectus posueremolestie. Vestibulum risus ligula, rhoncus eleifend.",
-        "Comunidade Capela Urbana CNPJ: 22.345.234/0001-89 <br /> Banco do Brasil - Agência 3410 <br /> Conta corrente 23423-8",
+        "Priorizamos o cuidado de gente, em sua totalidade, através dos ajuntamentos, da comunhão e do serviço. Por causa disso temos o nosso encontro comunitário semanal, nossos encontros de comum união e os projetos sociais em que temos colocado em prática, no serviço aos pequeninos, o que temos discernido do Evangelho.",
       ]}
     />
   </Layout>

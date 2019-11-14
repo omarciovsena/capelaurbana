@@ -7,6 +7,8 @@ import * as S from "./styles"
 const ParallaxSection = ({
   bgColor,
   bgImage,
+  ctaText,
+  ctaLink,
   descriptions,
   image,
   imageRight,
@@ -28,6 +30,11 @@ const ParallaxSection = ({
             {descriptions.map(description => (
               <S.Text dangerouslySetInnerHTML={{ __html: description }} />
             ))}
+            {ctaText && (
+              <S.Cta href={ctaLink} title={ctaText}>
+                {ctaText}
+              </S.Cta>
+            )}
           </S.TextSection>
         </S.Row>
       </F.Container>
@@ -42,6 +49,8 @@ ParallaxSection.propTypes = {
   image: PropTypes.string.isRequired,
   imageRight: PropTypes.bool.isRequired,
   title: PropTypes.string.isRequired,
+  cta: PropTypes.string,
+  ctaLink: PropTypes.string,
 }
 
 export default ParallaxSection

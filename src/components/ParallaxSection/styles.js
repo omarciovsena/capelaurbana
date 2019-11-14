@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link } from "gatsby"
 import { FlexGrid } from "../Flexbox"
 import { theme } from "../../styles/theme"
 
@@ -37,7 +38,18 @@ export const Title = styled.h3`
 
 export const Text = styled.p`
   color: ${theme.white};
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.5;
+`
+
+export const Cta = styled.a`
+  background: ${theme.white};
+  border-radius: 20px;
+  color: ${theme.daintree};
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 40px;
+  text-decoration: none;
 `
