@@ -52,8 +52,8 @@ export const ToggleInput = styled.input.attrs({
       }
     }
     &:checked + label + ul {
-      border-top: solid 2px black;
-      height: 170px;
+      height: calc(100vh - 84px);
+      justify-content: center;
     }
   }
 `
@@ -102,7 +102,7 @@ export const NavLinks = styled.ul`
     left: 0;
     overflow: hidden;
     position: absolute;
-    top: 94px;
+    top: 84px;
     transition: all 0.5s ease-in-out;
     width: calc(100%);
     text-align: center;
@@ -110,11 +110,25 @@ export const NavLinks = styled.ul`
 `
 
 export const NavLinksItem = styled.li`
-  margin: 8px 12px;
+  margin: 8px 16px;
+
+  @media (max-width: ${theme.mobile}) {
+    margin: 24px 0;
+  }
 
   &:last-child {
     margin-right: 0;
   }
+`
+
+export const NavExternaLink = styled.a`
+  background: ${theme.white};
+  border-radius: 20px;
+  color: ${theme.daintree};
+  font-size: 14px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 1s;
 `
 
 export const NavLinksLink = styled(Link)`

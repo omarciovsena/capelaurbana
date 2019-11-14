@@ -19,7 +19,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
-    <Newsletter />
+    {/* <Newsletter /> */}
     <Meeting />
     <ParallaxSection
       id="liga-social"

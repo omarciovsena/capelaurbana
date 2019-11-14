@@ -14,13 +14,13 @@ const Header = () => {
   let daintreeToWhite = y < 120 ? `${theme.daintree}` : `${theme.white}`
   let boxShadow = y > 120 && `0px 1px 3px ${theme.daintree}`
 
-  let buttonStyle =
-    width < 768
-      ? { background: "none", color: theme.white, padding: 0, borderRadius: 0 }
-      : {
-          background: whiteToDaintree,
-          color: daintreeToWhite,
-        }
+  // let buttonStyle =
+  //   width < 768
+  //     ? { background: "none", color: theme.white, padding: 0, borderRadius: 0 }
+  //     : {
+  //         background: whiteToDaintree,
+  //         color: daintreeToWhite,
+  //       }
 
   return (
     <S.Header
@@ -60,9 +60,12 @@ const Header = () => {
               <S.NavLinksLink to="/#contribua">Contribua</S.NavLinksLink>
             </S.NavLinksItem>
             <S.NavLinksItem>
-              <S.NavLinksLinkEspecial style={buttonStyle} to="/">
-                Conecte-se
-              </S.NavLinksLinkEspecial>
+              <S.NavExternaLink
+                href="http://agenda.capelaurbana.org"
+                rel="noopener noreferrer"
+              >
+                Agenda
+              </S.NavExternaLink>
             </S.NavLinksItem>
           </S.NavLinks>
         </nav>

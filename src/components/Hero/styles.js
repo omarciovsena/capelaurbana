@@ -6,8 +6,12 @@ import * as F from "../Flexbox"
 
 import heroBg from "../../images/capela-urbana-reuniao-hero.jpg"
 
+export const Background = styled.div`
+  background: ${theme.daintree};
+`
+
 export const HeroWrapper = styled(F.Wrapper)`
-  background: linear-gradient(to left, rgba(0, 42, 60, 0), #002a3c),
+  background: linear-gradient(to left, rgba(0, 42, 60, 0), ${theme.daintree}),
     url(${heroBg}) center/cover;
   height: 640px;
 
