@@ -19,6 +19,17 @@ export const Row = styled(FlexGrid)`
   > * {
     width: 50%;
   }
+
+  @media (max-width: 780px) {
+    > div:first-child {
+      display: none;
+    }
+
+    > div {
+      text-align: center;
+      width: 100%;
+    }
+  }
 `
 
 export const Image = styled.img`
