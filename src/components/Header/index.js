@@ -49,16 +49,15 @@ const Header = () => {
           <S.Toggle />
           <S.NavLinks style={{ color: whiteToDaintree }}>
             <S.NavLinksItem>
-              <S.NavLinksLink to="/">Encontros</S.NavLinksLink>
+              <S.NavLinksLink to="/#encontros">Encontros</S.NavLinksLink>
             </S.NavLinksItem>
             <S.NavLinksItem>
-              <S.NavLinksLink to="/">Mensagens</S.NavLinksLink>
+              <S.NavLinksLink to="/#ouca-e-reflita">
+                Ouça e Reflita
+              </S.NavLinksLink>
             </S.NavLinksItem>
             <S.NavLinksItem>
-              <S.NavLinksLink to="/">Ouça e Reflita</S.NavLinksLink>
-            </S.NavLinksItem>
-            <S.NavLinksItem>
-              <S.NavLinksLink to="/">Contribua</S.NavLinksLink>
+              <S.NavLinksLink to="/#contribua">Contribua</S.NavLinksLink>
             </S.NavLinksItem>
             <S.NavLinksItem>
               <S.NavLinksLinkEspecial style={buttonStyle} to="/">

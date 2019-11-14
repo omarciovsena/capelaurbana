@@ -7,14 +7,15 @@ import * as S from "./styles"
 const ParallaxSection = ({
   bgColor,
   bgImage,
-  ctaText,
   ctaLink,
+  ctaText,
   descriptions,
+  id,
   image,
   imageRight,
   title,
 }) => (
-  <S.Wrapper bgColor={bgColor}>
+  <S.Wrapper id={id} bgColor={bgColor}>
     <Parallax blur={0} bgImage={bgImage} strength={600}>
       <F.Container>
         <S.Row
@@ -28,10 +29,18 @@ const ParallaxSection = ({
           <S.TextSection align={imageRight ? "left" : "right"}>
             <S.Title>{title}</S.Title>
             {descriptions.map((description, index) => (
-              <S.Text key={`parallax-${index}`} dangerouslySetInnerHTML={{ __html: description }} />
+              <S.Text
+                key={`${id}-${index}`}
+                dangerouslySetInnerHTML={{ __html: description }}
+              />
             ))}
             {ctaText && (
-              <S.Cta href={ctaLink} title={ctaText} textColor={bgColor}>
+              <S.Cta
+                href={ctaLink}
+                title={ctaText}
+                textColor={bgColor}
+                rel="noopener noreferrer"
+              >
                 {ctaText}
               </S.Cta>
             )}
@@ -45,12 +54,13 @@ const ParallaxSection = ({
 ParallaxSection.propTypes = {
   bgColor: PropTypes.string.isRequired,
   bgImage: PropTypes.string.isRequired,
+  cta: PropTypes.string,
+  ctaLink: PropTypes.string,
   descriptions: PropTypes.array.isRequired,
+  id: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   imageRight: PropTypes.bool,
   title: PropTypes.string.isRequired,
-  cta: PropTypes.string,
-  ctaLink: PropTypes.string,
 }
 
 export default ParallaxSection

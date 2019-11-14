@@ -20,14 +20,15 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Hero />
     <Newsletter />
-    <Meeting/>
+    <Meeting />
     <ParallaxSection
+      id="liga-social"
       bgColor={theme.breakerBay}
       bgImage={bgSocialLeague}
       title="Liga Social"
       image={imgWorldMap}
       imageRight
-      ctaLink="https://doe.capelaurbana.org"
+      ctaLink="https://www.instagram.com/liga.social"
       ctaText="Fale conosco"
       descriptions={[
         "É uma rede de Projetos Sociais que dá suporte a ações relevantes no Brasil e no Mundo. Entendemos que podemos compartilhar a nossa experiência e acompanhar projetos sociais desde a sua concepção até sua execução.",
@@ -35,11 +36,12 @@ const IndexPage = () => (
     />
     <Podcast />
     <ParallaxSection
+      id="contribua"
       bgColor={theme.daintree2}
       bgImage={bgContribute}
       title="Como Contribuir"
       image={Brand}
-      ctaLink="https://doe.capelaurbana.org"
+      ctaLink="http://doe.capelaurbana.org"
       ctaText="Contribua"
       descriptions={[
         "Priorizamos o cuidado de gente, em sua totalidade, através dos ajuntamentos, da comunhão e do serviço. Por causa disso temos o nosso encontro comunitário semanal, nossos encontros de comum união e os projetos sociais em que temos colocado em prática, no serviço aos pequeninos, o que temos discernido do Evangelho.",
