@@ -126,6 +126,7 @@ export const NavExternaLink = styled.a`
   border-radius: 20px;
   color: ${theme.daintree};
   font-size: 14px;
+  font-weight: 400;
   padding: 10px 20px;
   text-decoration: none;
   transition: all 1s;
@@ -141,5 +142,6 @@ export const NavLinksLinkEspecial = styled(NavLinksLink)`
   background: ${theme.white};
   border-radius: 20px;
   color: ${theme.daintree};
+  font-weight: 400;
   padding: 10px 20px;
 `

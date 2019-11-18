@@ -88,7 +88,7 @@ export const CallToAction = styled(Link)`
   border-radius: 20px;
   color: ${theme.daintree};
   display: inline-block;
-  font-weight: bold;
+  font-weight: 400;
   margin-top: 20px;
   padding: 10px 40px;
   text-decoration: none;

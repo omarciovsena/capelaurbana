@@ -58,7 +58,7 @@ export const Cta = styled.a`
   border-radius: 20px;
   color: ${({ textColor }) => textColor};
   display: inline-block;
-  font-weight: bold;
+  font-weight: 400;
   margin-top: 20px;
   padding: 10px 40px;
   text-decoration: none;
