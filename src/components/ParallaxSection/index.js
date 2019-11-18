@@ -37,9 +37,10 @@ const ParallaxSection = ({
             {ctaText && (
               <S.Cta
                 href={ctaLink}
-                title={ctaText}
-                textColor={bgColor}
                 rel="noopener noreferrer"
+                target="_blank"
+                textColor={bgColor}
+                title={ctaText}
               >
                 {ctaText}
               </S.Cta>
