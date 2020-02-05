@@ -8,7 +8,7 @@ const Hero = () => (
       <F.Container>
         <S.HeroFlexGrid alignItems="center">
           <S.HeroCol>
-            <S.H2>Um espaço de espiritualidade no meio da cidade.</S.H2>
+            <S.H2>Um espaço de espiritualidade na cidade.</S.H2>
             <S.H4>
               Um lugar de pausa, reflexão, oração e acolhimento pautado na
               espiritualidade de Jesus.

@@ -4,6 +4,26 @@
   "description": "Um espaço de espiritualidade no meio da cidade.",
   "version": "0.0.1",
   "author": "Márcio Sena <contato@marciosena.com.br> e Leonardo de Deus <talkto@theleoad.com>",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "keywords": [
+    "capela",
+    "urbana",
+    "comunidade",
+    "fé",
+    "igreja"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/capelaUrbana/site"
+  },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.16.1",
@@ -17,6 +37,7 @@
     "gatsby-plugin-styled-components": "^3.1.11",
     "gatsby-source-filesystem": "^2.1.33",
     "gatsby-transformer-sharp": "^2.2.23",
+    "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -27,28 +48,5 @@
   },
   "devDependencies": {
     "prettier": "^1.18.2"
-  },
-  "keywords": [
-    "capela",
-    "urbana",
-    "comunidade",
-    "fé",
-    "igreja"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

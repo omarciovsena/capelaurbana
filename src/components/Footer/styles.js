@@ -19,6 +19,11 @@ export const StyledText = styled.p`
   @media (max-width: 780px) {
     text-align: center;
   }
+
+  a {
+    color: ${theme.hitGray};
+    padding: 3px;
+  }
 `
 
 export const StyledImage = styled.img`

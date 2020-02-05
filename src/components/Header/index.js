@@ -1,5 +1,5 @@
 import React from "react"
-import { useWindowScroll, useWindowSize } from "react-use"
+import { useWindowScroll } from "react-use"
 import { theme } from "../../styles/theme"
 
 import * as S from "./styles"
@@ -61,10 +61,11 @@ const Header = () => {
             </S.NavLinksItem>
             <S.NavLinksItem>
               <S.NavExternaLink
-                href="http://agenda.capelaurbana.org"
+                href="http://playlist.capelaurbana.org"
+                target="_blank"
                 rel="noopener noreferrer"
               >
-                Agenda
+                Playlist
               </S.NavExternaLink>
             </S.NavLinksItem>
           </S.NavLinks>

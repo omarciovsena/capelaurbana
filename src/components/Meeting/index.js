@@ -13,29 +13,29 @@ const items = [
     bgColor: theme.daintree,
     logo: logoCapelaUrbana,
     title: "Capela Urbana",
-    hour: "às quartas a partir das 19h30m",
-    description: "Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula, rhoncus eleifend. Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula, rhoncus eleifend."
+    hour: "às Quartas a partir das 19h30m",
+    description: "Em nossos encontros a palavra-chave é 'gente'. Nos encontramos por causa do Deus que se fez gente em Jesus e que nos manda amar outras 'gentes'. Deus escolheu ser amado no próximo."
   },
   {
     bgColor: theme.almond,
     logo: logoCidadania,
     title: "Cidadania",
-    hour: "aos sábados a partir das 8h30m",
-    description: "Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula, rhoncus eleifend. Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula, rhoncus eleifend."
+    hour: "aos Sábados a partir das 8h30m",
+    description: "Nossa ação comunitária acontece no Setor Dom Fernando II, a partir das aulas de futebol e de suporte às famílias. Temos um comprometimento ético com os valores do Reino de Deus."
   },
   {
     bgColor: theme.daintree,
     logo: logoQuintal,
     title: "Quintal",
-    hour: "às quartas a partir das 19h30m",
-    description: "Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula, rhoncus eleifend. Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula, rhoncus eleifend."
+    hour: "às Quintas",
+    description: "Encontros singelos de comum união, para fortalecimento de vínculos, para celebrar a vida, comer e beber juntos e se alegrar pela Graça de Deus em nós."
   },
   {
     bgColor: theme.starkWhite,
     logo: logoMissional,
     title: "Missional",
-    hour: "aos sábados a partir das 8h",
-    description: "Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula, rhoncus eleifend. Nunc porta erat ut lectus posuere molestie. Vestibulum risus ligula, rhoncus eleifend."
+    hour: "aos Sábados a partir das 8h",
+    description: "Curso intensivo que reflete o papel missional da igreja, sua ação na sociedade, a teologia pública e o compromisso com a transformação do mundo pela prática do Evangelho do Amor."
   }
 ]
 

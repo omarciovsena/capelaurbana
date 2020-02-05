@@ -1,4 +1,5 @@
 import React from "react"
+import moment from 'moment'
 import * as S from "./styles"
 import * as F from "../Flexbox"
 import SocialFacebook from "../../images/social-facebook.svg"
@@ -58,7 +59,13 @@ const Footer = () => (
           </S.StyledSection>
         </F.FlexGrid>
         <S.StyledText>
-          Todos os direitos reservados à Capela Urbana - 2019 - 2020
+          Projeto 
+          <a
+              href="https://github.com/capelaurbana/site"
+              title="Github"
+              target="_blank"
+              rel="noopener noreferrer"
+          >Open Source</a>da Capela Urbana - {moment().format('YYYY')}
         </S.StyledText>
       </S.StyledRow>
     </F.Container>
