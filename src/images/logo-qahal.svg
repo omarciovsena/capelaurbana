@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="72px" viewBox="0 0 22 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Feed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Group-3" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF">
+            <g id="Group-2" transform="translate(9.657837, 35.000000) scale(-1, -1) translate(-9.657837, -35.000000) translate(7.262693, 0.000000)">
+                <line x1="3.12913907" y1="0.0386313466" x2="3.20640177" y2="53.8134658" id="Line-inf" stroke-linecap="round"></line>
+                <line x1="3.21777042" y1="58.294702" x2="3.21777042" y2="69.9613687" id="Line-sup" stroke-linecap="round"></line>
+                <line x1="1.67251656" y1="58.294702" x2="1.67251656" y2="69.9613687" id="Line-sup" stroke-linecap="round"></line>
+                <line x1="1.58388521" y1="0.11589404" x2="0.0386313466" y2="3.17191589" id="Line" stroke-width="2" stroke-linecap="round"></line>
+                <line x1="4.75165563" y1="66.7163355" x2="3.20640177" y2="69.7723574" id="Line" stroke-width="2" stroke-linecap="round"></line>
+                <line x1="1.67251656" y1="51.1865342" x2="1.67251656" y2="53.8907285" id="Line" stroke-linecap="square" transform="translate(1.672517, 52.538631) rotate(-180.000000) translate(-1.672517, -52.538631) "></line>
+                <line x1="1.67251656" y1="0.0386313466" x2="1.67251656" y2="53.8134658" id="Line-inf" stroke-linecap="round"></line>
+                <line x1="3.21777042" y1="51.1865342" x2="3.21777042" y2="53.8907285" id="Line" stroke-linecap="square" transform="translate(3.217770, 52.538631) rotate(-180.000000) translate(-3.217770, -52.538631) "></line>
+                <line x1="3.21777042" y1="58.1401766" x2="3.21777042" y2="60.8443709" id="Line" stroke-linecap="square" transform="translate(3.217770, 59.492274) rotate(-180.000000) translate(-3.217770, -59.492274) "></line>
+                <line x1="1.67251656" y1="58.1401766" x2="1.67251656" y2="60.8443709" id="Line" stroke-linecap="square" transform="translate(1.672517, 59.492274) rotate(-180.000000) translate(-1.672517, -59.492274) "></line>
+            </g>
+            <g id="Group-2" transform="translate(9.619205, 14.023179) scale(-1, 1) rotate(-90.000000) translate(-9.619205, -14.023179) translate(7.185430, 4.403974)">
+                <line x1="3.21777042" y1="10.3918322" x2="3.21777042" y2="19.1997792" id="Line" stroke-linecap="round"></line>
+                <line x1="3.21777042" y1="0.0386313466" x2="3.21777042" y2="8.69205298" id="Line" stroke-linecap="round"></line>
+                <line x1="1.74977925" y1="0.0386313466" x2="1.74977925" y2="8.69205298" id="Line" stroke-linecap="round"></line>
+                <line x1="1.74977925" y1="10.9326711" x2="1.74977925" y2="19.1997792" id="Line" stroke-linecap="round"></line>
+                <line x1="1.74977925" y1="10.3918322" x2="1.74977925" y2="13.0960265" id="Line" stroke-linecap="square"></line>
+                <line x1="3.21777042" y1="10.3918322" x2="3.21777042" y2="13.0960265" id="Line" stroke-linecap="square"></line>
+                <line x1="3.21777042" y1="6.14238411" x2="3.21777042" y2="8.84657837" id="Line" stroke-linecap="square"></line>
+                <line x1="1.74977925" y1="6.14238411" x2="1.74977925" y2="8.84657837" id="Line" stroke-linecap="square"></line>
+                <line x1="1.58388521" y1="0.0386313466" x2="0.0386313466" y2="3.0946532" id="Line" stroke-width="2" stroke-linecap="round"></line>
+                <line x1="4.82891832" y1="16.0320088" x2="3.28366446" y2="19.0880307" id="Line" stroke-width="2" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

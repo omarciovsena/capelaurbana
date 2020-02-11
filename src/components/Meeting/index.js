@@ -6,7 +6,7 @@ import { theme }  from "../../styles/theme"
 import logoCidadania from '../../images/logo-cidadania.svg'
 import logoCapelaUrbana from '../../images/logo-capela-urbana.svg'
 import logoMissional from '../../images/logo-missional.svg'
-import logoQuintal from '../../images/logo-quintal.svg'
+import logoQahal from '../../images/logo-qahal.svg'
 
 const items = [
   {
@@ -24,11 +24,11 @@ const items = [
     description: "Nossa ação comunitária acontece no Setor Dom Fernando II, a partir das aulas de futebol e de suporte às famílias. Temos um comprometimento ético com os valores do Reino de Deus."
   },
   {
-    bgColor: theme.daintree,
-    logo: logoQuintal,
-    title: "Quintal",
-    hour: "às Quintas",
-    description: "Encontros singelos de comum união, para fortalecimento de vínculos, para celebrar a vida, comer e beber juntos e se alegrar pela Graça de Deus em nós."
+    bgColor: theme.black,
+    logo: logoQahal,
+    title: "Qahal",
+    hour: "às Segundas a partir das 19h30m",
+    description: "Espaço para adolescentes e jovens. Feito por jovens, em linguagem própria, buscando juntos a celebração do Reino e o convívio comunitário, entregues à alegria de poder servir a Deus em suas mocidades."
   },
   {
     bgColor: theme.starkWhite,
