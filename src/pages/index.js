@@ -3,7 +3,7 @@ import React from "react"
 import Hero from "../components/Hero"
 import Layout from "../components/Layout"
 import Meeting from "../components/Meeting"
-// import Newsletter from "../components/Newsletter"
+import Newsletter from "../components/Newsletter"
 import ParallaxSection from "../components/ParallaxSection"
 import Podcast from "../components/Podcast"
 import SEO from "../components/seo"
@@ -19,7 +19,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
-    {/* <Newsletter /> */}
+    <Newsletter />
     <Meeting />
     <ParallaxSection
       id="liga-social"

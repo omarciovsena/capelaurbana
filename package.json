@@ -29,6 +29,7 @@
     "gatsby": "^2.16.1",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-google-analytics": "^2.1.26",
+    "gatsby-plugin-mailchimp": "^5.1.2",
     "gatsby-plugin-manifest": "^2.2.23",
     "gatsby-plugin-netlify": "^2.1.21",
     "gatsby-plugin-offline": "^3.0.16",
