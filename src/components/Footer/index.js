@@ -32,12 +32,6 @@ const Footer = () => (
             justifyContent="center"
           >
             <span>@capelaurbana</span>
-            <a
-              href="mailto:ola@capelaurbana.org"
-              title="Envie um email pra nós"
-            >
-              ola@capelaurbana.org
-            </a>
           </S.StyledSection>
           <S.StyledSection
             alignItems="left"
